@@ -1,7 +1,14 @@
 /*Place your CSS code here*/
 
 :root {
-    --header-bg-color: #ddd; 
+    --header-bg-color: #ddd;
+    --searchbar-bg-color: #fff;
+    --lightgray-bg-color: #f4f5f6;
+    --sidebar-font-color: blue;
+    --body-font-color: #ffffff;
+    --button-color: green;
+    --button-hover-color: green;
+    --button-drop-shadow: 0 0 0 rgba(0,0,0,0);
 }
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
@@ -13,11 +20,11 @@
 
 body {  
   font-family: 'Fakt', 'Roboto';  
-  color: #2c2c2c !important;
+  color: var(--body-font-color) !important;
   padding-bottom: 200px !important;
 }
 p,h1,h2,h3,h4,h5,h6,label {
-  color: #2c2c2c !important;
+  color: var(--body-font-color) !important;
 }
 ul.customTabs {
   font-family: 'Roboto';  
