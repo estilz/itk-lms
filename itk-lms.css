@@ -1,0 +1,770 @@
+/*Place your CSS code here*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+@font-face {
+    font-family:'Fakt';
+    src: url(https://www.knowingmore.com/itk/other/FaktPro-Normal.45991873.woff) format('woff');
+}
+
+body {  
+  font-family: 'Fakt', 'Roboto';  
+  color: #2c2c2c !important;
+  padding-bottom: 200px !important;
+}
+p,h1,h2,h3,h4,h5,h6,label {
+  color: #2c2c2c !important;
+}
+ul.customTabs {
+  font-family: 'Roboto';  
+}
+ul.tabulizedList {
+  font-family: 'Roboto';  
+}
+#ef-navbar form.navbar-form .selectize-input {
+    background-color: rgba(255,255,255,0.75) !Important;
+    border: 0px solid rgba(255,188,2,1) !important;
+}
+#ef-navbar form.navbar-form input[type='text'] {
+    top: 2px !important;
+}
+#ef-navbar form.navbar-form span.search-handle {
+    background-color: rgba(255,255,255,0.75) !Important;
+    border-top: 0px solid rgba(255,188,2,1) !important;
+    border-left: 0px solid rgba(255,188,2,1) !important;
+    border-right: 0px solid rgba(255,188,2,1) !important;
+    border-bottom: 0px solid rgba(255,188,2,1) !important;
+}
+#ef-navbar form.navbar-form > div.form-group > div.input-group {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.ef-anchor-like, a.link, a.link:visited, a.link:hover, a.link:link {
+    color: #88b11e !important;
+}
+.iconElement:hover {
+    background-color: #e1eff2 !important;
+}
+html.popup body {
+}
+.iconElement {
+}
+.iconElement:hover {
+    background-color: #e1eff2 !important;
+}
+.ef-anchor-like, a.link, a.link:visited, a.link:hover, a.link:link {
+    color: 88b11e !important;
+}
+x#ef-navbar .container ul.nav.navbar-nav li.open a.dropdown-toggle {
+    background-color: #ffffff !important;
+}
+x#ef-navbar .container ul.nav.navbar-nav li a.dropdown-toggle + ul.dropdown-menu {
+    background-color: #ffffff !important;
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.2)
+}
+.mp-a-0 .ef-wrap {
+    display: none;
+}
+.amcharts-plot-area {
+    display: none !important;
+}
+x#ef-navbar {
+    margin-bottom: 30px;
+}
+x.breadcrumb-x {
+    display: none;
+}
+a {
+    letter-spacing: 0px !important;
+}
+
+
+
+.ef-block .nav, .itk-dashboard-tabs .nav {
+    background-color: #ffffff !important; 
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.nav.customTabs, .toolbar ul.tabulizedList {
+    margin-top: 1px !important;
+    padding-top: 1px !important;
+}
+.nav.customTabs a {
+    text-transform: none !important;
+    font-size: 14px !important;
+}
+.toolbar ul.tabulizedList li a {
+    text-transform: none !important;
+    font-size: 14px !important;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+ul.customTabs > li.active > a, .toolbar ul.tabulizedList li.selected > a  {
+    color: #88b11e !important;
+}
+.nav.customTabs #slider {
+    background-color: #88b11e !important;
+}
+ul.tabulizedList > li.tabulizedElement.selected > a:not(:first-child):after {
+    content: "";
+    border-bottom: 0.1em solid #88b11e;
+    display: table-caption;
+    caption-side: bottom;
+    position: relative;
+    background-color: #88b11e !important;
+    height: 2px;
+    position: relative !important;
+    top: -2px !important;
+    margin-top: -0.15em;
+}
+.sortedTable tr.oddRowColor, .sortedTable tr.evenRowColor {
+    background: #ffffff; 
+}
+.sortedTable tr.oddRowColor td, .sortedTable tr.evenRowColor {
+    border-bottom: 1px solid #f4f5f8 !important;
+    border-top: 1px solid #f4f5f8 !important;
+}
+.sortedTable tr.oddRowColor:hover, .sortedTable tr.evenRowColor:hover {
+    background: #f4f5f8;
+}
+.sortedTableFooter {
+    padding-top: 15px !important;
+    padding-bottom: 10px !important;
+}
+x.sortTablefilter, x.form-inline .form-control {
+   width: 250px !important;
+}
+
+.sortedTableFooter {
+    border-bottom: 1px solid #f4f5f8 !important;
+    padding-bottom: 25px !important;
+}
+
+/*new */
+.ef-entry-link {
+    color: #88b11e !important;
+    font-size: 16px
+}
+
+.ef-my-courses-course .ef-entry-title .pull-left {
+    float: none !important;
+}
+.itk-course-img {
+    float: left;
+    width: 120px;
+    margin-right: 15px;
+    border: 1px solid #dddddd;
+    padding: 0px;
+}
+.ef-my-courses ul li.ef-my-courses-category > ul > li:nth-child(2n+2) {
+    background-color: #Ffffff !important;
+}
+.ef-my-courses ul li.ef-my-courses-category > ul > li:nth-child(2n+2) div.ef-entry-head:hover {
+    background-color: #f4f5f8 !important;
+}
+#ef-description-short {}
+.ef-main-action-button a {}
+.itk-course-description {
+    color: #2c2c2c;
+    font-size: 12px;
+    padding-top: 3px;
+    line-height: 1.4em;
+    white-space: normal !important;
+    padding-left: 135px
+}
+#ef-my-couses-list-handles {
+    
+}
+.ef-my-courses-curriculum .ef-my-courses-progress-bar {
+    border: 1px solid #ccc;
+}
+.ef-my-courses-course .ef-my-courses-progress-bar {
+    display: none;
+}
+.ef-my-courses-category .col-sm-4 {}
+.itk-launch-button {
+    padding: 15px;
+    background-color: #88b11e;
+    color: #ffffff !important;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 1px rgba(0,0,0,0.2);
+    position: relative;
+    top: 12px !important;
+}
+.itk-launch-button:hover {
+    background-color: rgba(0,146,168,0.8);
+    text-decoration: none !important;
+}
+.ef-my-courses .ef-courses-list ul li.ef-my-courses-category > div.ef-entry-head {
+    background-color: #e1eff2;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+.ef-my-courses .ef-courses-list ul li.ef-my-courses-category > div.ef-entry-head:hover {
+    background-color: #c9e2e8;
+    color: #2c2c2c !important;
+}
+.ef-my-courses ul li.ef-my-courses-category > div.ef-entry-head span.ef-entry-name:hover {
+    color: #2c2c2c;
+}
+.ef-my-courses .ef-courses-list ul li.ef-my-courses-category > div.ef-entry-head span {
+    color: #2c2c2c;
+    text-transform: none;
+    line-height: 1.2em;
+}
+.ef-my-courses .ef-courses-list ul li.ef-my-courses-curriculum > div.ef-entry-head {
+    background-color: #f4f5f8 !important;
+    border-bottom: 1px solid #ddd;
+}
+.ef-my-courses .ef-courses-list ul li.ef-my-courses-curriculum > div.ef-entry-head:hover {
+    background-color: #e0e3eb !important;
+}
+.progress .progress-bar.progress-bar-success {
+    background-color: #88b11e;
+}
+.label-ef-curriculum {
+//    background-color: #7e54e7;
+    background-color: #ffffff;
+    color: #3d486a !important;
+    border: 1px solid #3d486a !important;
+    padding: 3px 5px !important;
+    border-radius: 2px !important;
+    font-size: 12px !important;
+    letter-spacing: 0.5px;
+}
+.label-ef-starts-at {
+//    background-color: #f5834c;
+    background-color: #88b11e;
+    padding: 3px 5px !important;
+    border-radius: 2px !important;   
+    margin-top: 8px !important;
+}
+.label-ef-completed {
+//    background-color: #69b908;
+    background-color: #88b11e;
+    padding: 3px 5px !important;
+    border-radius: 2px !important; 
+        margin-top: 8px !important;
+}
+
+.ef-my-courses .ef-block-header a.ef-block-handle.ef-my-courses-toggle-view.active {
+    color: #88b11e;
+}
+.ef-grid {}
+
+.ef-dashboard-header .ef-main-action-button .btn.btn-success {
+    background-color: #88b11e;
+    border-color: #88b11e;
+}
+.ef-unit-tree .ef-unit-link.passed, .ef-unit-tree .ef-unit-link.passed:hover, .ef-unit-tree .ef-unit-link.passed:link, .ef-unit-tree .ef-unit-link.passed:active, .ef-unit-tree .ef-unit-link.passed:visited {
+    color: #88b11e !important;
+}
+.ef-unit-tree i.passed.ef-tooltip-toggle.fa-check {
+    color: #88b11e !important;
+}
+
+.label-ef-roster {
+//    background-color: #69b908;
+    background-color: #88b11e;    
+    padding: 3px 5px !important;
+    border-radius: 2px !important;
+    font-size: 12px !important;
+    letter-spacing: 0.5px !important;    
+}
+.ef-card-wrap {
+    background-color: #f4f5f8 !important;
+    box-shadow: 0 0 6px 1px rgba(0,0,0,0.1) !important;
+}
+.ef-card-wrap .caption {
+    background-color: #f4f5f8 !important;
+}
+.ef-card-entries .ef-card .ef-card-wrap div.thumbnail {
+}
+
+.ef-card-wrap .ef-plain {
+    color: #2c2c2c !important;
+}
+.ef-card-entries .ef-card .ef-card-wrap div.caption .ef-plain.ef-header {
+    max-height: 500px !important;
+    font-weight: 500 !important;
+    line-height: 1.2em !important;
+    font-size: 95% !important;
+}
+.ef-card-entries .ef-card .ef-card-wrap div.thumbnail div.default-action {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.ef-card-wrap .ef-price {
+    display: none !important;
+}
+.colored-info {
+    color: #88b11e;
+}
+.itk-search-row td {
+    background-color: #f4f5f8 !important;
+}
+.sortedTableFooter {
+    padding-top: 10px !important;
+    padding-bottom: 15px !important;
+    border-bottom: 1px solid #ebebeb !important;
+}
+.btn.ef-already-in-your-cart {
+    white-space: normal !important;
+}
+.itk-graph {
+    display: none;
+}
+.sortedTable td {
+    line-height: 1.3em !important;
+}
+.itk-welcome-box .ef-block {
+    background-color: transparent !important;
+    box-shadow: 0 0 0 0 !important;
+}
+.honor-welcome-h2 {
+  position: relative;
+  top: -15px;
+      font-size: 36px;
+    color: #88b11e !important;  
+}
+.container > div > div > .ef-block, .container > div > .ef-block {
+    padding: 10px 20px 30px 20px !important
+}
+.container .itk-welcome-box .ef-block {
+    padding-bottom: 10px !important;
+}
+.itk-video-frame {
+   position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;    
+}
+.itk-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+}
+.ef-grayed-badge-image {
+    opacity: 0.2 !important;
+}
+.ef-my-courses ul li.ef-my-courses-category > ul > li:nth-child(1n+1) div.ef-entry-head:hover {
+    background-color: #f4f5f8 !important;
+}
+@media (max-width: 767px) {
+  .itk-course-img {
+    width: 80px;
+    margin-right: 10px;
+  }
+  .ef-my-courses-course .ef-entry-title {
+    padding-left: 20px !important;
+  }
+  .itk-course-description {
+    line-height: 1.4em;
+    white-space: normal !important;
+    padding-left: 90px;
+  }
+  .ef-my-courses .ef-courses-list div.ef-entry-head span.ef-entry-name    {
+    white-space: normal !important;
+  }
+}
+@media (min-width:768px) {
+  .ef-preview-box {
+  //    display: none;
+      border: 0;
+      text-align: left;
+  }
+  .ef-preview-box div span {
+      font-size: 100%;
+      margin-top: 1px !important;
+      line-height: 1em;
+  }
+  .ef-preview-box hr{
+      display: none;
+  }
+  .ef-user-controls {
+      width: 200px;
+      padding: 0px;
+      margin-top: 10px;
+  }
+}
+
+
+/* NEW CSS FOR TESTING */
+html {
+	background-color: #fff;
+}
+body {
+  margin-top: 100px;
+}
+.mm-wrapper_opened body {
+    margin-top: 0px;
+}
+.mm-wrapper_opened body #ef-navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0 !important;
+    z-index: 10000;
+}
+@media (max-width: 768px) {
+    body {
+        background-color: #ffffff;
+    }
+    .navbar-collapse {
+        border-top: 0;
+    }
+#desktop-nav, .user-preferences {
+    display: none !important;
+}
+    #ef-navbar {
+        width: 100%;
+    }
+#ef-navbar .container {
+    text-align: center !important;
+    clear: both;
+}
+#ef-logo {
+    float: none !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    margin: 0 auto !important;
+    width: 100% !important;
+}
+#ef-navbar .container .navbar-header .ef-navbar-logo {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+  #ef-navbar .container ul.nav.navbar-nav > li#m-nav-menu-open {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        cursor: pointer;
+        height: 57px;
+    }
+    
+}
+@media (min-width: 768px) {
+body {
+    padding-left: 250px;
+    box-sizing: border-box !important;
+    background-color: #ffffff;
+}
+.container {
+    width: 1200px;
+    max-width: 100%;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+#desktop-nav, .user-preferences {
+    display: block !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    padding-top: 100px;
+    background-color: #f4f5f8;
+    border-right: 1px solid #ddd
+}
+#ef-search-bar {
+    max-width: 60%;
+    margin: 0 auto;
+}
+#ef-logo {
+    position: absolute;
+    left: 20px;
+}
+    #ef-navbar {
+        width: calc(100% - 250px) !important;
+    }
+}
+
+
+
+#nav-gamification-points, #ef-navigation li.hidden-xs {
+    display: none !important;
+}
+.user-preferences {
+    position: fixed !important;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    background-color: #f4f5f8;
+    height: 57px;
+    max-height: 57px;
+    box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.1)   
+}
+#ef-navbar .container ul.nav.navbar-nav li.open a.dropdown-toggle {
+    background-color: #fff;
+}
+.user-preferences > a {
+    padding: 12px 30px 12px 15px !important;
+    margin-top: 0px !important;
+    height: 57px !important;
+    text-align: left !important;
+    z-index: 1;
+}
+.user-preferences .caret {
+    vertical-align: middle;
+    border-top: 7px dashed;
+    border-top: 7px solid #ddd;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    position: absolute;
+    right: 15px;
+    top: 25px;
+}
+
+#ef-navbar .container ul.nav.navbar-nav li a.dropdown-toggle + ul.dropdown-menu, x#ef-navbar .container ul.nav.navbar-nav ul.dropdown-menu li a ~ ul.dropdown-menu {
+    margin-top: -15px;
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    right: 0px;
+    top: 56px;
+    background-color: #fff;
+    color: #444 !important;
+}
+#ef-navbar .container ul.nav.navbar-nav ul.dropdown-menu li > a, #ef-navbar .container ul.nav.navbar-nav ul.dropdown-menu li:hover > a, #ef-navbar .container ul.nav.navbar-nav ul.dropdown-menu li a:hover, #ef-navbar .container ul.nav.navbar-nav ul.dropdown-menu > li > a:active, #ef-navbar .container ul.nav.navbar-nav ul.dropdown-menu > li > a:visited {
+    color: #444 !important;
+}
+.ef-switch-account {
+    color: #444 !important;
+    background-color: #fff !important;
+}
+#ef-navbar .container ul.nav.navbar-nav ul.dropdown-menu li a ~ ul.dropdown-menu {
+    background-color: #fff !important;
+}
+.user-preferences.open .dropdown-menu {
+    top: 60px !important;
+    border: 1px solid #f4f5f8;
+    right: 10px !important;
+}
+.user-preferences .divider {
+    background-color: #f4f5f8 !important;
+}
+#ef-navbar .container ul.nav.navbar-nav > li.user-preferences ul.dropdown-menu:after {
+    display: none;
+}
+#ef-navbar .container ul.nav.navbar-nav ul.dropdown-menu li a:hover {
+    background-color: #fff;
+    color: #999 !important;
+}
+.user-preferences a[href="https://learn.knowingmore.com/catalog"] {
+    display: none;
+}
+.new-name {
+    color: #444;
+    display: inline-block;
+    line-height: 1.1em;
+    padding: 3px 3px 3px 8px;
+}
+.new-name-name {
+    font-size: 120%;
+}
+.breadcrumb-x {
+    display: none;
+}
+#ef-navbar {
+    margin-bottom: 43px;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.1);
+}
+#desktop-nav ul {
+    padding-left: 15px;
+}
+#desktop-nav ul li {
+    font-size: 18px;
+    list-style: none;
+    padding-left: 40px;
+      margin-bottom: 12px;
+    line-height: 2.2em !important;
+}
+#desktop-nav ul li a, #desktop-nav ul li a:hover, #desktop-nav ul li a:active {
+color: #3d486a !important;
+}
+#desktop-nav ul li:before {
+    position: absolute;
+    left: 24px;
+    color: #3d486a !important;
+}
+#desktop-nav ul li:first-of-type:before {
+    font-family: "FontAwesome"; font-weight: 900; content: "\f015";
+}
+#desktop-nav ul li:nth-of-type(2):before {
+    font-family: "FontAwesome"; font-weight: 900; content: "\f040";
+}
+#desktop-nav ul li:nth-of-type(3):before {
+    font-family: "FontAwesome"; font-weight: 900; content: "\f091";
+}
+#desktop-nav ul li:nth-of-type(4):before {
+    font-family: "FontAwesome"; font-weight: 900; content: "\f1cd";
+}
+#desktop-nav ul li:nth-of-type(5):before {
+    font-family: "FontAwesome"; font-weight: 900; content: "\f003";
+}
+.page-header {
+    border-bottom: 0;
+}
+.page-header-back {
+    margin-bottom: 15px !important;
+}
+.page-header-back a {
+    font-size: 120%;
+    color: #777
+}
+.page-header-title {
+    font-size: 200%;
+    line-height: 1.2em;
+    color: #444;
+  	position: relative;
+}
+.container .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.container .container .ef-block {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.welcome-hi {
+    font-size: 200%;
+    color: #3d486a;
+    padding: 10px 30px;
+   display: block;
+}
+.welcome-hi-sub {
+    font-size: 120%;
+    color: #3d486a;  
+    padding: 10px 100px 10px 100px;
+    display: block;
+}
+.alert h4 {
+    color: #fff !important;
+}
+.no-top-margin {
+    margin-top: 0px
+}
+.show-details {
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    color: #777;
+    font-size: 60%;
+    cursor: pointer;
+}
+.ef-content-area-scorm {
+    padding: 0;
+    height: auto;
+}
+#desktop-nav .active {
+    border-right: 6px solid #3d486a;
+}
+.ef-unit-tree ul.ef-courses-list div.ef-entry-head span.ef-entry-name a:hover {
+    color: #88b11e;
+}
+body, html {
+    background-color: #fff !important;
+}
+.user-preferences {
+    background-color: #f4f5f8 !important;
+}
+.ef-block {
+    box-shadow: none !important;
+}
+.page-achievements .row {
+    display: none;
+}
+
+.page-achievements .table-responsive {
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.page-achievements .ef-block-content {
+    margin-bottom: 30px;
+}
+.table-responsive tr.oddRowColor, .table-responsive tr.evenRowColor {
+    height: 60px !important;
+}
+.ef-my-courses .ef-courses-list ul li.ef-my-courses-category > div.ef-entry-head {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+.ef-my-courses .ef-courses-list ul li.ef-my-courses-category > div.ef-entry-head:hover {
+    background-color: #fff;
+}
+body.manager #desktop-nav ul li {
+    line-height: 1.4em !important;
+}
+body.manager #desktop-nav ul li:before {
+    display: none;
+}
+body.manager #desktop-nav ul li:not(.indent) {
+    padding-left: 20px;
+}
+body.manager #desktop-nav ul li.indent {
+    font-size: 16px;
+}
+a.support-row {
+    position: relative;
+    width: 100% !important;
+    display: block;
+    height: auto;
+
+}
+.support-row div.col-md-12 {
+    padding: 0px 70px 10px 20px;
+    position: relative;
+}
+.blue-border {
+    border-top: 1px solid #3d486a
+}
+.support-row div.col-md-12:after {
+   content: '\f105';
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    font-size: 40px;
+}
+a.support-row:hover div {
+    background-color: #f4f5f8 !important;
+    border-radius: 10px;
+}
+.support-row h2 {
+    color: #3d486a !important;
+    font-size: 24px;
+}
+.support-row p {
+    color: #666666 !important;
+    font-size: 14px;    
+}
+.support-row {
+    
+}
+.container-fluid {
+    border: 1px solid #3d486a;
+    border-radius: 10px;
+    padding: 0px;
+}
+.lp-badges img {
+    max-width: 150px !important;
+}
+.itk-launch-button {
+    white-space: nowrap;
+}
+
+/* DO NOT ADD/EDIT AFTER THIS LINE */
+#ef-navbar, #ef-navbar li a.dropdown-toggle[aria-expanded="true"]{background-color:#3d486a;border-color:#3d486a;}
+html,body{background-color:#F4F5F8;}
+div.breadcrumb-x{background-color:#FFFFFF;border-color:#FFFFFF;}
+div.ef-block, div.dashboard-panel div.panel-body{background-color:#FFFFFF;}
+*.btn.btn-primary, *.btn.btn-primary:not(.active), *.btn.btn-primary:hover, *.btn.btn-primary:hover:not(.active), *.btn.btn-primary:focus, *.btn.btn-primary:focus:not(.active){background-color:#88b11e;border-color:#88b11e;}
