@@ -1,5 +1,9 @@
 /*Place your CSS code here*/
 
+:root {
+    --header-bg-color: #ddd; 
+}
+
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 @font-face {
@@ -763,7 +767,7 @@ a.support-row:hover div {
 }
 
 /* DO NOT ADD/EDIT AFTER THIS LINE */
-#ef-navbar, #ef-navbar li a.dropdown-toggle[aria-expanded="true"]{background-color:#ffffff;border-color:#3d486a;}
+#ef-navbar, #ef-navbar li a.dropdown-toggle[aria-expanded="true"]{background-color:var(--header-bg-color);border-color:#3d486a;}
 html,body{background-color:#F4F5F8;}
 div.breadcrumb-x{background-color:#FFFFFF;border-color:#FFFFFF;}
 div.ef-block, div.dashboard-panel div.panel-body{background-color:#FFFFFF;}
